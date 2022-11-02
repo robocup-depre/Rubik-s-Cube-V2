@@ -1,3 +1,6 @@
+'''
+Usa la GPIO del raspberry per pilotare i 6 motori passo passo.
+'''
 from RPi import GPIO
 import time
 GPIO.setmode(GPIO.BOARD)
