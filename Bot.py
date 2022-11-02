@@ -1,3 +1,6 @@
+'''
+Programma principale: bot che riceve comandi o fotografie. Deve essere avviato all'accensione del raspberry e contiene anche un comando per spegnerlo.
+'''
 import telebot
 import cv2
 import numpy as np
