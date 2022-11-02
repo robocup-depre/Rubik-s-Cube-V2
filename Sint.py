@@ -1,3 +1,6 @@
+'''
+Sintetizza delle immagini di dimensione 300*300 pixel da fornire come feedback all'utente.
+'''
 import cv2
 import numpy as np
 
