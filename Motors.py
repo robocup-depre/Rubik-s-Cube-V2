@@ -120,7 +120,7 @@ def init():
     #rele pin
     rele(1)
     
-def t(s):
+def t(s):#per semplificare il debug
     risolvi_tutto(s)
     
 def rele(stato):
