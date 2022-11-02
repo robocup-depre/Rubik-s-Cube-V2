@@ -1,3 +1,8 @@
+'''
+gestisce tutto quello che ha a che fare con il calcolo della soluzione:
+-ricostruisce l'orientamento corretto di ogni fotografia;
+-calcola la soluzione effettiva.
+'''
 import kociemba
 
 def rotate(face):#ruota di 90 gradi la faccia in input e la ritorna
