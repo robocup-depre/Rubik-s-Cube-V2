@@ -6,7 +6,7 @@ import Calc_rotaz as rotaz
 import os
 import Motors as mot
 import Sint as sint
-bot=telebot.TeleBot("5708390899:AAFIp79FqKPtri6wFkbKqj8VhoNdsx1cDpM",parse_mode=None)
+bot=telebot.TeleBot("insertYourTokenHere",parse_mode=None)
 
 @bot.message_handler(commands=['risolvi'])
 def send_welcome(message):
