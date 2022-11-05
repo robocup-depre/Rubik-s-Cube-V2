@@ -9,8 +9,8 @@ import Calc_rotaz as rotaz
 import os
 import Motors as mot
 import Sint as sint
-bot=telebot.TeleBot("insertYourTokenHere",parse_mode=None)
-
+bot=telebot.TeleBot("__insertYourTokenHere__",parse_mode=None)
+password="__insertYourPasswordHere__"
 @bot.message_handler(commands=['risolvi'])
 def send_welcome(message):
     if check_id(message.chat.id):
@@ -95,7 +95,7 @@ def check_id(id):
     return 0
 
 def check_psw(id,psw):
-    if psw=="1618033989":
+    if psw==password:
         if not check_id(id):
             id_list=open("id_list.txt","a")
             id_list.write("\n")
