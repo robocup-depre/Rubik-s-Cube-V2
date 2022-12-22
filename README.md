@@ -55,4 +55,9 @@ cd
 cd Rubik-s-Cube-V2
 nano Bot.py
 ```
-move to the 12° line, and replace __insertYourTokenHere__ with yout bot's Token.
+Move to the 13° line, and write your Token rigth after __TOKEN=__.
+Chose a password and write it in the 14° line, after __password=__.
+Now type Ctrl+S, Y, Enter to save the document.
+
+
+
