@@ -48,3 +48,11 @@ Now let's install [git](https://git-scm.com) and clone this repository into the 
 sudo apt-get install git
 sudo git clone https://github.com/robocup-depre/Rubik-s-Cube-V2.git
 ```
+Make sure you have successfully created your own telegram bot, like explained in [this article](https://www.telegram-group.com/en/blog/create-bot-telegram).
+Now it's time to edit one of the python scripts. You have to insert your Token in the code to link your bot to the code that will be executed in your Raspberry. I will use nano to do this, but you can also use an IDE like Idle, or even any test editor.
+```
+cd
+cd Rubik-s-Cube-V2
+nano Bot.py
+```
+move to the 12° line, and replace __insertYourTokenHere__ with yout bot's Token.
