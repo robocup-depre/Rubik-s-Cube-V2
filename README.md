@@ -39,7 +39,7 @@ Now install the kociemba library:
 sudo pip install kociemba
 ```
 
-Install the telebot library:
+Install the pyTelegramBotAPI library:
 ```
 sudo pip install pyTelegramBotAPI
 ```
