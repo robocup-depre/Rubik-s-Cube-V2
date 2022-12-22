@@ -25,8 +25,8 @@ sudo pip install opencv-python==4.6.0.66
 Now check if there are any problems trying to run OpenCV:
 ```
 sudo python3
->>>import cv2
->>>exit()
+>>> import cv2
+>>> exit()
 ```
 
 If you've got some error messages, try this(it should work...):
