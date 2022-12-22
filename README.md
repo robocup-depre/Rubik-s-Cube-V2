@@ -43,3 +43,8 @@ Install the pyTelegramBotAPI library:
 ```
 sudo pip install pyTelegramBotAPI
 ```
+Now install git and clone this repository:
+```
+sudo apt-get install git
+sudo git clone 
+```
