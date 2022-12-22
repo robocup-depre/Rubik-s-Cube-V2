@@ -9,8 +9,11 @@ import Calc_rotaz as rotaz
 import os
 import Motors as mot
 import Sint as sint
+
+TOKEN=
+password=
+
 bot=telebot.TeleBot("__insertYourTokenHere__",parse_mode=None)
-password="__insertYourPasswordHere__"
 @bot.message_handler(commands=['risolvi'])
 def send_welcome(message):
     if check_id(message.chat.id):
