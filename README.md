@@ -43,8 +43,8 @@ Install the pyTelegramBotAPI library:
 ```
 sudo pip install pyTelegramBotAPI
 ```
-Now install git and clone this repository:
+Now let's install [git](https://git-scm.com) and clone this repository into the /home folder:
 ```
 sudo apt-get install git
-sudo git clone 
+sudo git clone https://github.com/robocup-depre/Rubik-s-Cube-V2.git
 ```
