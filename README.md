@@ -62,6 +62,21 @@ Move to the 13° line, and write your Token rigth after __TOKEN=__.
 Chose a password and write it in the 14° line, after __password=__.
 Now type __Ctrl+S, Y, Enter__ to save the document.
 
-The last thing to do is to make the Raspberry start the bot at boot. So, 
+The last thing to do is to make the Raspberry start the bot at boot using the [crontab](https://en.wikipedia.org/wiki/Cron) tool.
+Type:
+```
+cd
+mkdir logs
+sudo crontab -e
+```
+You will be asked to chose a test editor (I recommend you to chose nano). Move to the bottom of the document, and write the following command:
+```
+@reboot sh /home/pi/Rubik-s-Cube-V2/startup_bot.sh >/home/pi/logs/cronlog 2>&1
+```
+Type __Ctrl+X, Y, Enter__ to save.
 
+Now reboot:
+```
+sudo reboot
+```
 
