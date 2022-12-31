@@ -62,5 +62,6 @@ Move to the 13° line, and write your Token rigth after __TOKEN=__.
 Chose a password and write it in the 14° line, after __password=__.
 Now type __Ctrl+S, Y, Enter__ to save the document.
 
+The last thing to do is to make the Raspberry start the bot at boot. So, 
 
 
