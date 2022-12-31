@@ -54,7 +54,7 @@ Now it's time to edit one python scripts. Enter the Rubik-s-Cobe-V2 folder:
 cd
 cd Rubik-s-Cube-V2
 ```
-Insert your Token in the code to link your bot to the code that will be executed in your Raspberry. I will use nano to do this, but you can also use an IDE like Idle, or even any test editor.
+Insert your Token in the code to link your bot to the code that will be executed in your Raspberry. I will use nano to do this, but you can also use an IDE like IDLE, or even any test editor.
 ```
 sudo nano Bot.py
 ```
