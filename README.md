@@ -57,7 +57,7 @@ cd Rubik-s-Cube-V2
 ```
 Insert your Token in the code to link your bot to the code that will be executed in your Raspberry. I will use nano to do this, but you can also use an IDE like Idle, or even any test editor.
 ```
-nano Bot.py
+sudo nano Bot.py
 ```
 Move to the 13° line, and write your Token rigth after __TOKEN=__.
 Chose a password and write it in the 14° line, after __password=__.
